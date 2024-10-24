@@ -12,7 +12,6 @@ def mark_scored ():
     percentage = float(input("\nEnter the student's mark scored:  "))
     if percentage >= 90:
         return "Grade A"
-        print
     elif percentage >= 80:
         return "Grade B"
     elif percentage >= 70:
@@ -22,6 +21,6 @@ def mark_scored ():
     elif percentage >= 40:
         return "Grade E"
     else:
-        return "Grade F"  
+        return "Grade F" 
 mark_scored()
     
